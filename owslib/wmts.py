@@ -541,8 +541,8 @@ class TileMatrix(object):
         if (mw is None) or (mh is None):
             msg = '%s is missing MatrixWidth and/or MatrixHeight' % (elem,)
             raise ValueError(msg)
-        self.matrixwidth = int(mw)
-        self.matrixheight = int(mh)
+        self.matrixwidth = int(mw.trim(r'.*'))
+        self.matrixheight = int(mh.trim(r'.*'))
 
 
 class Theme:
