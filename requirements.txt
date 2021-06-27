@@ -1,5 +1,5 @@
-python-dateutil>=1.5
-pytz
-requests>=1.0
-pyproj >=2
-pyyaml
+python-dateutil @ git+https://github.com/dateutil/dateutil.git#egg=python-dateutil
+pytz @ git+https://github.com/ectoglasses/pytz.git#egg=pytz
+requests @ git+https://github.com/ectoglasses/requests.git#egg=requests
+pyproj @ git+https://github.com/ectoglasses/pyproj.git#egg=pyproj
+pyyaml @ git+https://github.com/ectoglasses/pyyaml.git#egg=pyyaml
