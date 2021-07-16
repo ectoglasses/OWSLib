@@ -1,5 +1,5 @@
 python-dateutil @ git+https://github.com/ectoglasses/dateutil.git#egg=python-dateutil
 pytz
 requests @ git+https://github.com/ectoglasses/requests.git#egg=requests
-pyproj @ git+https://github.com/ectoglasses/pyproj.git#egg=pyproj
+pyproj
 pyyaml @ git+https://github.com/ectoglasses/pyyaml.git#egg=pyyaml
